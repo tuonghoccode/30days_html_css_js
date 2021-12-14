@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+:root {
+    --pink-color: #f2726a;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #00853e, #50c878);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 0 10rem;
+    .item{
+        position: relative;
+        width: 275px;
+        height: 400px;
+        background: #242628;
+        border-radius:12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+          overflow: hidden;
+
+        // gap: 2rem;
+        img{
+            width:120px;
+            object-fit: cover;
+            border-radius:50%;
+            border:4px solid var(--pink-color); 
+            object-position: center;
+            cursor: pointer;
+            transition:0.2s;
+
+            &:hover{
+               width: 100%;
+                 border-radius: unset;
+                border: unset;
+                transform: unset;
+                
+            }
+
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;    
+            align-items: center;
+            margin-top: 1.2rem;
+            gap: 1rem;
+            .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;    
+                align-items: center;
+                .name{
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #fff;
+            }
+            .job{
+                color:var(--pink-color);
+                
+            }
+            }
+            
+        }
+        .social{
+            margin-top: 2rem;
+            width: 100%;
+            display: flex;
+            justify-content:space-around;
+            padding: 0 1.5rem;
+            i{
+                font-size: 1.6rem;
+                color: #fff;
+                transition: color .2s linear;
+                &:hover{
+                    color:var(--pink-color);
+                    transition: color .2s linear;
+                }
+
+            }
+        }
+        .button{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            width:120px;
+            height: 45px;
+            border:1px solid var(--pink-color);
+            border-radius: 12px;
+            color: #fff;
+            margin-top: 2rem;
+            transition: background .2s linear;
+            font-weight: 300;
+                &:hover{
+                    background:var(--pink-color);
+                    transition: background .2s linear;
+                    cursor: pointer;
+                }
+        }
+    }
+}

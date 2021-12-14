@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+:root {
+  --pink-color: #f2726a;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(45deg, #00853e, #50c878);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10rem;
+}
+
+body .item {
+  position: relative;
+  width: 275px;
+  height: 400px;
+  background: #242628;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+body .item img {
+  width: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--pink-color);
+  -o-object-position: center;
+     object-position: center;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .item img:hover {
+  width: 100%;
+  border-radius: unset;
+  border: unset;
+  -webkit-transform: unset;
+          transform: unset;
+}
+
+body .item .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.2rem;
+  gap: 1rem;
+}
+
+body .item .info .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .item .info .text .name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+body .item .info .text .job {
+  color: var(--pink-color);
+}
+
+body .item .social {
+  margin-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 1.5rem;
+}
+
+body .item .social i {
+  font-size: 1.6rem;
+  color: #fff;
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
+body .item .social i:hover {
+  color: var(--pink-color);
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
+body .item .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+  height: 45px;
+  border: 1px solid var(--pink-color);
+  border-radius: 12px;
+  color: #fff;
+  margin-top: 2rem;
+  -webkit-transition: background .2s linear;
+  transition: background .2s linear;
+  font-weight: 300;
+}
+
+body .item .button:hover {
+  background: var(--pink-color);
+  -webkit-transition: background .2s linear;
+  transition: background .2s linear;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
