@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #fefefe;
+  background: linear-gradient(130deg, #fefefe 0%, #36a22a 62%, #15829e 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-radius: 15px;
+}
+
+body .wrapper input {
+  background: #242628;
+  color: #fff;
+  border: none;
+  outline: none;
+  height: 70px;
+  width: 300px;
+  border-radius: 12px 0 0 12px;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+body .wrapper i {
+  width: 70px;
+  position: absolute;
+  height: 70px;
+  background: #fff;
+  text-align: center;
+  line-height: 70px;
+  font-size: 2rem;
+  overflow: hidden;
+  border-radius: 0 12px 12px 0;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+}
+
+.wrapper.open {
+  width: 420px;
+}
+/*# sourceMappingURL=style.css.map */

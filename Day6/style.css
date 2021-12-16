@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  height: 100vh;
+  background: #17A2b8;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .alert {
+  font-size: 40px;
+  color: #17a2b8;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 40px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+
+body .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+}
+
+body .box .result {
+  width: 200px;
+  height: 200px;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+body .box .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+body .box .detail .card {
+  width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+body .box .detail .card p:first-child {
+  background: #78c8c9;
+  color: #fff;
+}
+
+body .box .detail .card p {
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+
+body .hide {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
